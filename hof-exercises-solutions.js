@@ -173,7 +173,7 @@ console.log(JSON.stringify(onlyMovieTitles(users)) === JSON.stringify(titles) ? 
 // Compute the average age of users
 
 function averageAge(array) {
-    return [...array].reduce((acc, user) => acc + user.age, 0)/array.length
+    return array.reduce((acc, user) => acc + user.age, 0)/array.length
 }
 
 console.log("QUESTION 4")
